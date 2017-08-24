@@ -3,4 +3,5 @@ node_js:
   - "6"
 before_install:
   - npm install -g mocha
-  
+addons:
+  chrome: "stable"
